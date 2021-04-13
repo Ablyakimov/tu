@@ -1,17 +1,10 @@
-@import '_fonts.scss';
-
-h1{
-    font-family: 'ALS Hauss';
-}
-h2{
-    font-family: 'ALS Hauss';
-    font-weight: 500;
-}
-h3{
-    font-family: 'ALS Hauss';
-    font-weight: 400;
-}
-h4{
-    font-family: 'Bona Nova';
-    font-style: italic;
-}
+// normalize
+@import 'normalize';
+// Подключение шрифтов
+@import 'fonts';
+// Общие настройки
+@import 'settings';
+// Подключение блока header
+@import 'blocks/header';
+// Подключение медиа
+@import 'media';

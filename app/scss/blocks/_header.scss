@@ -1,0 +1,54 @@
+.header{
+    padding-top: 60px;
+    &__inner{
+        display: flex;  
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    &__link{
+        font-family: 'ALS Hauss';
+        font-style: normal;
+        font-weight: 350;
+        font-size: 24px;
+        line-height: 50px;
+        letter-spacing: -1.25573px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        text-decoration: none;
+        &:not(:last-child){
+            margin-right: 50px;
+        }
+    }
+}
+.logo{
+    &-img{
+
+    }
+}
+.menu{
+    &-button{   
+        display: flex;
+        width: 16px;
+        height: 11px;
+        padding: 0;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        border: none;
+        background-color: #131417;
+        cursor: pointer;
+        &__line{
+            width: 16px;
+            height: 1px;
+            background-color: #FF9B07;
+        }
+        &--mobile{
+            display: none;
+        }
+    }
+}
