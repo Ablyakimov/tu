@@ -7,7 +7,7 @@ html(lang="ru")
         title tu
         link(rel="stylesheet", href="css/index.css")
     body 
-        div.header 
+        header.header 
             div.container
                 div.header__inner
                     a.logo(href="#")
@@ -20,6 +20,28 @@ html(lang="ru")
                         span.menu-button__line
                         span.menu-button__line
                         span.menu-button__line
-
-
+            section.hero 
+                div.container
+                    div.hero__inner
+                        h1.hero__title
+                            |школа 
+                            br
+                            |диджитал навыков
+                            br 
+                            | от 
+                            span.hero__title-word практикующих
+                            br
+                            | профессионалов
+                        div.hero-video
+                            video.hero-video__video
+                                source( src="video/video.webm" type="video/webm")
+                                source( src="video/video.ogv" type="video/ogg")
+                                source( src="video/video.mp4" type="video/mp4")
+                                object(data="video/video.swf" type="application/x-shockwave-flash")
+                                    param(name="movie" value="video/video.swf")
+                            div.hero-video__play Play 
+                            div.hero-video__volume.hero-video__volume--mute 
+                                img.hero-video__volume-mute.mute(src="img/mute.svg", alt="No volume")
+                                img.hero-video__volume-unmute.unmute(src="img/unmute.svg", alt="Unmute")
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous")
         script(src="js/main.js") 
