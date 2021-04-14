@@ -9,7 +9,11 @@
         margin-right: 79px;
     }
     &__info{
-        &-text{}
+        &-text{
+            >br{
+                display: none;
+            }
+        }
         &-link{
             font-family: 'ALS Hauss';
             font-style: normal;

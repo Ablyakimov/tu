@@ -10,9 +10,9 @@ html(lang="ru")
         header.header 
             div.container
                 div.header__inner
-                    a.logo(href="#")
+                    a.logo.header__logo(href="#")
                         img.logo__img(src="img/logo.png", alt="tu")
-                    nav.nav
+                    nav.nav.nav--mobile
                         a.nav__link(href="#") Курсы
                         a.nav__link(href="#") Наймите выпускника
                         a.nav__link(href="#") Личный кабинет
@@ -43,13 +43,15 @@ html(lang="ru")
                         div.hero-video__volume.hero-video__volume--mute 
                             img.hero-video__volume-mute.mute(src="img/mute.svg", alt="No volume")
                             img.hero-video__volume-unmute.unmute(src="img/unmute.svg", alt="Unmute")
-                        a.hero-video__link(href="#") О школе за 72 секунды
+                        a.hero-video__link(href="#")
+                            img.hero-video__link-img(src="img/play.svg", alt="")
+                            |   О школе за 72 секунды
         section.portfolio
             div.container
                 div.portfolio__inner
                     img.portfolio__img(src="img/portfolio.png", alt="Портфолио")
                     div.portfolio__info
-                        p.portfolio__info-text.text Каждый преподаватель это либо специалист нашей студии, либо владелец бизнеса
+                        p.portfolio__info-text.text Каждый <br> преподаватель это либо специалист нашей студии, либо владелец бизнеса
                         a.portfolio__info-link(href="#") портфолио студии
         section.skills 
             div.container
@@ -63,21 +65,21 @@ html(lang="ru")
                 div.specialist__inner 
                     p.specialist__text.text За 3 года через нас прошло более <br> 7 000 специалистов, среди <br> которых сотрудники
                     ul.specialist__imgs
-                        li.specialist__item
+                        li.specialist__item.tnt
                             img.specialist__item-img(src="img/tnt.png", alt="ТНТ")
-                        li.specialist__item
+                        li.specialist__item.cocacola
                             img.specialist__item-img(src="img/cocacola.png", alt="cocacola")    
-                        li.specialist__item
+                        li.specialist__item.splat
                             img.specialist__item-img(src="img/splat.png", alt="splat")
-                        li.specialist__item
+                        li.specialist__item.blackstar
                             img.specialist__item-img(src="img/blackstar.png", alt="blackstar")
-                        li.specialist__item
+                        li.specialist__item.toyota
                             img.specialist__item-img(src="img/toyota.png", alt="toyota")
-                        li.specialist__item
+                        li.specialist__item.henkel
                             img.specialist__item-img(src="img/henkel.png", alt="henkel")      
-                        li.specialist__item
+                        li.specialist__item.baikal
                             img.specialist__item-img(src="img/baikal.png", alt="baikal")  
-                        li.specialist__item
+                        li.specialist__item.DOGM
                             img.specialist__item-img(src="img/DOGM.png", alt="Департамент образования и науки города Москва")        
         script(src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous")
         script(src="js/main.js") 

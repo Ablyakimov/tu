@@ -27,5 +27,18 @@ $(document).ready(function () {
             video.muted = !video.muted
         }
      })
-
+    //  Меню
+    $('.menu-button').click(function () { 
+        if($('.nav').hasClass('nav--anim')){
+            $('.nav').removeClass('nav--anim');                
+            setTimeout(() => {
+                $('.nav').removeClass('nav--active');                
+            }, 150);
+        } else {
+            $('.nav').addClass('nav--active');                
+            setTimeout(() => {
+                $('.nav').addClass('nav--anim');                
+            }, 20);
+        }
+     })
 });

@@ -21,6 +21,7 @@
     }
     &-video{
         position: relative;
+        z-index: 10;
         &__link{
             position: absolute;
             bottom: -45px;
@@ -33,7 +34,10 @@
             line-height: 100%;
             width: 341px;
             color: #FEA430;
-            text-decoration: none; 
+            text-decoration: none;
+            &-img{
+                display: none;
+            }
 
         }
         &__video{
