@@ -1,4 +1,5 @@
 .specialist{
+    padding-top: 76px;
     &__inner{
 
     }
@@ -13,9 +14,12 @@
     &__text{
         text-align: center;
         margin-bottom: 120px;
+        line-height: 124%;
+        letter-spacing: -1.25573px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
     }   
     &__item{
-        width: 230px;
+        width: 260px;
         display: flex;
         align-items: center;
         justify-content: center;

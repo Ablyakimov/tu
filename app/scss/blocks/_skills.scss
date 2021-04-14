@@ -1,14 +1,18 @@
 .skills{
+    margin-top: -80px;
     &__inner{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     &__img{
-        margin-right: -280px;
-        margin-left: 130px;
+        margin-right: -195px;
+        margin-left: 100px;
     }
     &__info{
-        &-text{}
+        &-text{
+            margin-top: 78px;
+            margin-bottom: 0;
+        }
     }
 }
