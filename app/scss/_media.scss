@@ -21,7 +21,50 @@
         font-size: 40px;
     }
 }
+@media (max-width: 1300px) {
+    .container{
+        max-width: 992px;
+    }
+    .hero{        
+        &__title{
+            font-size: 65px;
+        }
+        &-video{
+            &__video{
+                max-width: 300px;
+            }
+        }
+    }
+    .portfolio{
+        &__img{
+            width: 600px;
+        }
+    }
+    .skills{
+        &__img{
+            width: 600px;
+        }
+        &__info{
+            &-text{
+                margin-top: 30px;
+            }
+        }
+    }
+    .text{
+        font-size: 35px;
+    }
+    .specialist{
+        &__imgs{
+            width: 780px;
+            justify-content: center;
+            align-items: center;
+    }
 
+    }
+}
+@media (max-width: 768px) {
+    // Планшет
+}
 
 
 @media(hover: hover) and (pointer: fine){
