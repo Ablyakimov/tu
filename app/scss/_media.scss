@@ -1,3 +1,29 @@
+@media (max-width: 1600px) {
+    .container{
+        max-width: 1250px   ;
+    }
+    .hero{
+        &__title{
+            font-size: 80px;
+        }
+    }
+    .portfolio{
+        &__img{
+            width: 800px;
+        }
+    }
+    .skills{
+        &__img{
+            width: 800px;
+        }
+    }
+    .text{
+        font-size: 40px;
+    }
+}
+
+
+
 @media(hover: hover) and (pointer: fine){
     .nav{
         &__link{
