@@ -20,37 +20,64 @@ html(lang="ru")
                         span.menu-button__line
                         span.menu-button__line
                         span.menu-button__line
-            section.hero 
-                div.container
-                    div.hero__inner
-                        h1.hero__title
-                            |школа 
-                            br
-                            |диджитал навыков
-                            br 
-                            | от 
-                            span.hero__title-word практикующих
-                            br
-                            | профессионалов
-                        div.hero-video
-                            video.hero-video__video
-                                source( src="video/video.webm" type="video/webm")
-                                source( src="video/video.ogv" type="video/ogg")
-                                source( src="video/video.mp4" type="video/mp4")
-                                object(data="video/video.swf" type="application/x-shockwave-flash")
-                                    param(name="movie" value="video/video.swf")
-                            div.hero-video__play Play 
-                            div.hero-video__volume.hero-video__volume--mute 
-                                img.hero-video__volume-mute.mute(src="img/mute.svg", alt="No volume")
-                                img.hero-video__volume-unmute.unmute(src="img/unmute.svg", alt="Unmute")
-                            a.hero-video__link(href="#") О школе за 72 секунды
-            section.portfolio
-                div.container
-                    div.portfolio__inner
-                        img.portfolio__img(src="img/portfolio.png", alt="Портфолио")
-                        div.portfolio__info
-                            p.portfolio__info-text.text Каждый преподаватель это либо специалист нашей студии, либо владелец бизнеса
-                            a.portfolio__info-link(href="#") портфолио студии
-
+        section.hero 
+            div.container
+                div.hero__inner
+                    h1.hero__title
+                        |школа 
+                        br
+                        |диджитал навыков
+                        br 
+                        | от 
+                        span.hero__title-word практикующих
+                        br
+                        | профессионалов
+                    div.hero-video
+                        video.hero-video__video
+                            source( src="video/video.webm" type="video/webm")
+                            source( src="video/video.ogv" type="video/ogg")
+                            source( src="video/video.mp4" type="video/mp4")
+                            object(data="video/video.swf" type="application/x-shockwave-flash")
+                                param(name="movie" value="video/video.swf")
+                        div.hero-video__play Play 
+                        div.hero-video__volume.hero-video__volume--mute 
+                            img.hero-video__volume-mute.mute(src="img/mute.svg", alt="No volume")
+                            img.hero-video__volume-unmute.unmute(src="img/unmute.svg", alt="Unmute")
+                        a.hero-video__link(href="#") О школе за 72 секунды
+        section.portfolio
+            div.container
+                div.portfolio__inner
+                    img.portfolio__img(src="img/portfolio.png", alt="Портфолио")
+                    div.portfolio__info
+                        p.portfolio__info-text.text Каждый преподаватель это либо специалист нашей студии, либо владелец бизнеса
+                        a.portfolio__info-link(href="#") портфолио студии
+        section.skills 
+            div.container
+                div.skills__inner
+                    div.skills__info
+                        p.skills__info-text.text Мы не приглашаем именитых гостей ради заголовков
+                        p.skills__info-text.text У нас только практические знания для приобретения навыка
+                    img.skills__img(src="img/skills.png", alt="Навыки")
+        section.specialist 
+            div.container
+                div.specialist__inner 
+                    p.specialist__text.text За 3 года через нас прошло более <br> 7 000 специалистов, среди <br> которых сотрудники
+                    ul.specialist__imgs
+                        li.specialist__item
+                            img.specialist__item-img(src="img/tnt.png", alt="ТНТ")
+                        li.specialist__item
+                            img.specialist__item-img(src="img/cocacola.png", alt="cocacola")    
+                        li.specialist__item
+                            img.specialist__item-img(src="img/splat.png", alt="splat")
+                        li.specialist__item
+                            img.specialist__item-img(src="img/blackstar.png", alt="blackstar")
+                        li.specialist__item
+                            img.specialist__item-img(src="img/toyota.png", alt="toyota")
+                        li.specialist__item
+                            img.specialist__item-img(src="img/henkel.png", alt="henkel")      
+                        li.specialist__item
+                            img.specialist__item-img(src="img/baikal.png", alt="baikal")  
+                        li.specialist__item
+                            img.specialist__item-img(src="img/DOGM.png", alt="Департамент образования и науки города Москва")        
         script(src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous")
         script(src="js/main.js") 

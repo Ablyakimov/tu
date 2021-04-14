@@ -1,0 +1,14 @@
+.skills{
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__img{
+        margin-right: -280px;
+        margin-left: 130px;
+    }
+    &__info{
+        &-text{}
+    }
+}

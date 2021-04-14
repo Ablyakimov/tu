@@ -1,4 +1,12 @@
 @media(hover: hover) and (pointer: fine){
+    .nav{
+        &__link{
+            &:hover{
+                color: #FF9B07;
+            }
+        }
+
+    }
     .hero{
         &-video{
             &__link{
