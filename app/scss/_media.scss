@@ -112,7 +112,63 @@
 }
 
 @media (max-width: 768px) {
-    // Планшет
+    .container{
+        max-width: 576px;
+    }
+    .nav{
+        display: none;
+    }
+    .menu{
+        &-button{
+            &--mobile{
+                display: flex;
+            }
+        }
+    }
+    .hero{
+        padding-top: 30px;
+        padding-bottom: 100px;
+        &__inner{
+            flex-direction: column;
+        }
+    }
+    .portfolio{
+        &__inner{
+            flex-direction: column;
+        }
+        &__img{
+            margin: 0;
+        }
+        &__info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .skills{
+        &__inner{
+            flex-direction: column;
+        }
+        &__img{
+            order: 1;
+            margin: 0;
+        }
+        &__info{
+            order: 2;
+        }
+    }
+    .specialist{
+        &__imgs{
+            width: auto;
+        }
+        &__item{
+            margin-bottom: 40px;
+
+        }
+    }
+    .text{
+        text-align: center;
+    }
 }
 
 
