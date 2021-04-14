@@ -1,0 +1,25 @@
+.portfolio{
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__img{
+        margin-left: -280px;
+        margin-right: 50px;
+    }
+    &__info{
+        &-text{}
+        &-link{
+            font-family: 'ALS Hauss';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 100%;
+            text-align: center;
+            text-decoration-line: none;
+
+            color: #FF9B07;
+        }
+    }
+}

@@ -11,6 +11,9 @@ $(document).ready(function () {
             video.play()
         }
     });
+    video.onended = function () {        
+        $('.hero-video__play').removeClass('hero-video__play--active');
+     }
 
     // Кнопка звука
     $('.hero-video__volume').click(function () { 
@@ -24,4 +27,5 @@ $(document).ready(function () {
             video.muted = !video.muted
         }
      })
+
 });

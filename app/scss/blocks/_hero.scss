@@ -21,6 +21,21 @@
     }
     &-video{
         position: relative;
+        &__link{
+            position: absolute;
+            bottom: -45px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'ALS Hauss';
+            font-style: normal;
+            font-weight: 350;
+            font-size: 32px;
+            line-height: 100%;
+            width: 341px;
+            color: #FEA430;
+            text-decoration: none; 
+
+        }
         &__video{
             max-width: 400px;
             border-radius: 20px;
